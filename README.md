@@ -5,7 +5,7 @@ This Python script automates the synchronization of events between Google Calend
 
 ## Description
 
-The Notion-GCal Sync script provides a bridge between Google Calendar and Notion, allowing for the automatic transfer of event data into a Notion database. This project is particularly useful for users who rely on both Google Calendar for event scheduling and Notion for task and project management. By syncing events across platforms, this script ensures that all your information is up-to-date and centrally located.
+The script provides a bridge between Google Calendar and Notion, allowing for the automatic transfer of event data into a Notion database. This project is particularly useful for users who rely on both Google Calendar for event scheduling and Notion for task and project management. By syncing events across platforms, this script ensures that all your information is up-to-date and centrally located.
 
 Features include:
 - Fetching events from Google Calendar.
