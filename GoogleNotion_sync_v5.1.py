@@ -96,7 +96,7 @@ for event in events:
     except Exception as e:
         print(f"Error processing event '{event_name}': {e}")
 
-# Handle genuinely deleted events
+""" # Handle genuinely deleted events
 deleted_event_ids = notion_synced_event_ids - current_google_event_ids
 
 for deleted_event_id in deleted_event_ids:
@@ -114,6 +114,6 @@ for deleted_event_id in deleted_event_ids:
                 )
                 print(f"Marked event {deleted_event_id} as deleted in Notion.")
             except Exception as e:
-                print(f"Failed to mark event {deleted_event_id} as deleted: {e}")
+                print(f"Failed to mark event {deleted_event_id} as deleted: {e}") """
 
 print("Sync and cleanup complete.")
